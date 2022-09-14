@@ -54,9 +54,10 @@ body {
 
 @media screen and (max-width: 1104px){
   .btn{
-    margin: 10px;
-    height: 150px;
-    width: 150px;
+    margin: 25px;
+      }
+  .container{
+  width: 90%;
   }
 
 }
