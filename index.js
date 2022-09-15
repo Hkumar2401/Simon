@@ -15,14 +15,15 @@ $(document).on("keydown", function () {
     }
 })
 
-// Starting the Game on Click
-$(document).one("click", function () {
+// Starting the Game on Clicking a button
+$("button").on("click", function () {
     if(!started){
         $("#level-title").text("Level : " + level);
         started = true;
         nextSequence();
     }
 })
+
 
 // Getting user chosen Color
 $(".btn").on("click", function () {
