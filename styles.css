@@ -52,6 +52,23 @@ body {
   background-color: grey;
 }
 
+.resetforClick{
+  font-family: 'Press Start 2P', cursive;
+  width: 80%;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #011F3F;
+  border-radius: 40px;
+  background-color: #011F3F;
+  border: none;
+}
+
+.resetforClick:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #042b56;
+}
+
 @media screen and (max-width: 1104px){
   .btn{
     margin: 25px;
